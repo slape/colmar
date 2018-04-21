@@ -23,16 +23,15 @@ strong {
 .flex-column {
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: space-between;
 }
 
 /*Header Section*/
 header {
   font-size: 3.5rem;
-  width: 100%;
-  border-bottom: 1px solid black;
+  width: 95%;
   padding: 2.5rem 4rem;
+  align-self: center;
 }
 
 header img {
@@ -43,4 +42,44 @@ header nav a {
   font-size: 2.5rem;
   color: #5c6670;
   margin-left: 2rem;
+}
+
+/*banner section*/
+
+.banner {
+  background-color: whitesmoke;
+  padding: 3rem 4rem;
+}
+
+.banner img {
+  width: 60%;
+}
+
+.feature-content {
+
+  width: 40%;
+  margin-left: 3rem;
+}
+
+.feature-content h1 {
+  font-weight: bold;
+  font-size: 8rem;
+  color: #666666;
+  margin: 2rem;
+}
+
+.feature-content h2 {
+  font-size: 4rem;
+  color: #666666;
+  margin: 2rem;
+}
+
+.feature-content h3 {
+  align-self:stretch;
+  font-size: 3rem;
+  color: white;
+  padding: 2rem;
+  text-align: center;
+  background-color: #666666;
+  margin: 2rem;
 }
