@@ -50,6 +50,10 @@ p {
   justify-content: space-around;
 }
 
+
+
+
+
 /*Header Section*/
 header {
   font-size: 3.5rem;
@@ -66,14 +70,17 @@ header figcaption {
   color: 	#B8B8B8;
 }
 
-header nav a {
+nav a {
   font-size: 2.5rem;
   color: #777777;
   margin-left: 2rem;
 }
 
-/*banner section*/
 
+
+
+
+/*banner section*/
 .banner {
   background-color: whitesmoke;
   padding: 5rem 4rem;
@@ -97,6 +104,10 @@ header nav a {
   text-align: center;
   background-color: #505050;
 }
+
+
+
+
 
 /*Information section*/
 .feature-article {
@@ -150,9 +161,11 @@ header nav a {
   font-size: 2rem;
 }
 
+
+
+
+
 /*Start learning section*/
-.start-learning h1 {
-}
 
 .start-learning {
   background-color: whitesmoke;
@@ -180,4 +193,33 @@ header nav a {
   align-items: flex-start;
   justify-content: space-around;
   flex-wrap: wrap;
+}
+
+
+
+
+
+/*Thesis section*/
+.thesis-exhibit {
+  align-items: center;
+  padding: 4rem;
+}
+
+.feature-video {
+  width: 60%;
+  padding: 2rem 4rem;
+}
+
+.feature-video video {
+  width: 100%;
+}
+
+
+
+
+
+/*Footer section*/
+footer {
+  border-top: 2px solid whitesmoke;
+  padding: 3rem 4rem;
 }
