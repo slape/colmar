@@ -1,7 +1,7 @@
 
 /*Mobile Global*/
 h1 {
-  font-size: 4.75rem;
+  font-size: 5rem;
   margin: 2rem 0;
   font-weight: bold;
   color: 	#505050;
@@ -9,16 +9,17 @@ h1 {
 
 h2 {
   font-weight: bold;
-  font-size: 3.5rem;
+  font-size: 4rem;
   margin: 2rem 0;
   color: 	#505050;
 }
 
 p {
-  font-size: 2.3rem;
+  font-size: 3rem;
   line-height: 3rem;
   margin-bottom: 2rem;
 }
+
 
 .flex {
   flex-direction: column;
@@ -49,7 +50,7 @@ p {
 }
 
 header img {
-  height: 5rem;
+  height: 8rem;
 }
 
 
@@ -116,7 +117,7 @@ header img {
 }
 
 .side-article a {
-  font-size: 2rem;
+  font-size: 3rem;
 }
 
 
@@ -135,6 +136,7 @@ header img {
   width: auto;
   background-color: whitesmoke;
   margin: 1rem 0;
+  padding: 3rem 0;
 }
 
 .learning-figures h2 {
