@@ -17,14 +17,14 @@ strong {
 h1,
 h2,
 h3,
-h4 {
+  {
   color: #505050;
   font-weight: bold;
 }
 
 h1 {
   font-size: 6.5rem;
-  margin: 3rem 0;
+  margin: 4rem 0;
 }
 
 h2 {
@@ -36,6 +36,12 @@ p {
   font-size: 2.3rem;
   line-height: 3rem;
   margin-bottom: 2rem;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .flex-row {
@@ -50,6 +56,84 @@ p {
   justify-content: space-around;
 }
 
+@media only screen and (max-width: 1350px) {
+  h1 {
+    font-size: 5rem;
+    margin: 3.5rem 0;
+  }
+
+  h2 {
+    font-size: 3rem;
+    margin: 2rem 0;
+  }
+
+  p {
+    font-size: 2rem;
+    line-height: 2.5rem;
+    margin-bottom: 2rem;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  h1 {
+    font-size: 4rem;
+    margin: 3rem 0;
+  }
+
+  h2 {
+    font-size: 2.5rem;
+    margin: 1.8rem 0;
+  }
+
+  p {
+    font-size: 1.8rem;
+    line-height: 2rem;
+    margin-bottom: 1.8rem;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  h1 {
+    font-size: 3rem;
+    margin: 2.5rem 0;
+  }
+
+  h2 {
+    font-size: 2rem;
+    margin: 1.5rem 0;
+  }
+
+  p {
+    font-size: 1.5rem;
+    line-height: 1.8rem;
+    margin-bottom: 1.5rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .flex {
+    flex-direction: column;
+
+  }
+
+  h1 {
+    font-weight: bold;
+    font-size: 4rem;
+    margin: 2rem 0;
+  }
+
+  h2 {
+    font-size: 2rem;
+    margin: 1.5rem 0;
+  }
+
+  p {
+    font-size: 1.5rem;
+    line-height: 1.8rem;
+    margin-bottom: 1.5rem;
+  }
+}
+
 
 
 
@@ -57,16 +141,14 @@ p {
 /*Header Section*/
 header {
   font-size: 3.5rem;
-  width: 95%;
   padding: 2.5rem 4rem;
-  align-self: center;
 }
 
 header img {
   height: 6rem;
 }
 
-header figcaption {
+header h4 {
   color: 	#B8B8B8;
 }
 
@@ -74,6 +156,58 @@ nav a {
   font-size: 2.5rem;
   color: #777777;
   margin-left: 2rem;
+}
+
+#small-header {
+  display: none;
+}
+
+@media only screen and (max-width: 1350px) {
+  header {
+    font-size: 3rem;
+    padding: 2rem 3.5rem;
+  }
+
+  header img {
+    height: 5rem;
+  }
+
+  nav a {
+    font-size: 2rem;
+    color: #777777;
+    margin-left: 1.8rem;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  header {
+    font-size: 2rem;
+    padding: 1.8rem 3rem;
+  }
+
+  header img {
+    height: 4rem;
+  }
+
+  nav a {
+    font-size: 2rem;
+    color: #777777;
+    margin-left: 1.8rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  #large-header {
+    display: none;
+  }
+  #small-header {
+    display: block;
+  }
+
+  header img {
+    height: 5rem;
+  }
+
 }
 
 
@@ -104,6 +238,33 @@ nav a {
   text-align: center;
   background-color: #505050;
 }
+
+@media only screen and (max-width: 600px) {
+  .banner {
+    background-color: whitesmoke;
+    padding: 0;
+  }
+
+  .banner img {
+    width: 100%;
+  }
+
+  .feature-content {
+    width: auto;
+    padding: 2rem;
+    margin: 0;
+  }
+
+  .feature-content h3 {
+    align-self:stretch;
+    font-size: 3rem;
+    color: white;
+    padding: 1.5rem;
+    text-align: center;
+    background-color: #505050;
+  }
+}
+
 
 
 
