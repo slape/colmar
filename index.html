@@ -4,10 +4,14 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/master.css">
-    <link href="https://fonts.googleapis.com/css?family=Istok+Web" rel="stylesheet">
+    <link rel="stylesheet" media="screen and (max-width: 1350px)" href="css/1350.css" />
+    <link rel="stylesheet" media="screen and (max-width: 900px)" href="css/900.css" />
+    <link rel="stylesheet" media="screen and (max-width: 700px)" href="css/700.css" />
+    <link rel="stylesheet" media="screen and (max-width: 600px)" href="css/mobile.css" />
+    <link rel="stylesheet" media="screen and (max-device-width: 600px)" href="css/mobile.css" />
     <title>Colmar Acadamy</title>
   </head>
-  <body class="flex-column">
+  <body>
 
 
 
@@ -15,7 +19,7 @@
 
 <!--Headers Section-->
   <!--Desktop Header-->
-    <header class="flex-row" id="large-header">
+    <header class="flex-row main">
       <div class="logo flex">
         <img src="resources/photos/ic-logo.svg" alt="small black lion logo">
         <h4><strong>COLMAR</strong>ACADEMY</h4>
@@ -29,7 +33,7 @@
     </header>
 
   <!--Mobile Header-->
-    <header id="small-header">
+    <header class="mobile">
       <nav class="flex-row">
         <a href="#"> <img src="resources/photos/ic-logo.svg" alt="small black icon of a lion (company logo)"> </a>
         <a href="#"> <img src="resources/photos/ic-on-campus.svg" alt="small black icon of a desk"> </a>
@@ -67,7 +71,8 @@
         </article>
         <div class="side-articles">
           <article class="side-article flex">
-            <img src="resources/photos/information-orientation.jpg" alt="a birds eye view of a few students walking to class">
+            <img src="resources/photos/information-orientation.jpg" alt="a birds eye view of a few students walking to class" class="main">
+            <img src="resources/photos/information-orientation-mobile.jpg" alt="a birds eye view of a few students walking to class" class="mobile">
               <div class="side-article-content">
                 <h2>Orintation Date</h2>
                 <p>Tues 10/11 & Wed 10/12: 8am-3pm</p>
@@ -75,7 +80,8 @@
               </div>
           </article>
           <article class="side-article flex">
-            <img src="resources/photos/information-campus.jpg" alt="a cozy scene inside coffee shop where students study">
+            <img src="resources/photos/information-campus.jpg" alt="a cozy scene inside coffee shop where students study" class="main">
+            <img src="resources/photos/information-campus-mobile.jpg" alt="a cozy scene inside coffee shop where students study" class="mobile">
               <div class="side-article-content">
                 <h2>Our Campus</h2>
                 <p>Find which campus is close by you</p>
@@ -83,7 +89,8 @@
               </div>
           </article>
           <article class="side-article flex" id="grey">
-            <img src="resources/photos/information-guest-lecture.jpg" alt="an older gentleman sporting a white beard, round tortise shell glasses, and a french beret">
+            <img src="resources/photos/information-guest-lecture.jpg" alt="an older gentleman sporting a white beard, round tortise shell glasses, and a french beret" class="main">
+            <img src="resources/photos/information-guest-lecture-mobile.jpg" alt="an older gentleman sporting a white beard, round tortise shell glasses, and a french beret" class="mobile">
               <div class="side-article-content">
                 <h2>Our guest lecture</h2>
                 <p>Join a keynote with Oliver Sack about music about medical treatment</p>
@@ -101,41 +108,41 @@
       <div class="start-learning flex-column">
         <h1>Start learning</h1>
         <div class="learning-figures flex">
-          <figure id="software">
-            <img src="resources/photos/course-software.jpg" alt="two computers sitting on a desk in a dark room, left in the middle of a coding project.">
+          <figure>
+            <img class="main"src="resources/photos/course-software.jpg" alt="two computers sitting on a desk in a dark room, left in the middle of a coding project.">
             <h2>Software engineering</h2>
-            <p>COURSES</p>
-            <p>Web Development, Mobile Development, iOT, APIs</p>
+            <p class="main">COURSES</p>
+            <p class="main">Web Development, Mobile Development, iOT, APIs</p>
           </figure>
-          <figure id="computer">
-            <img src="resources/photos/course-computer-art.jpg" alt="a smart phone held in one hand with a cup of cofee in the distance">
+          <figure>
+            <img class="main" src="resources/photos/course-computer-art.jpg" alt="a smart phone held in one hand with a cup of cofee in the distance">
             <h2>Computer art</h2>
-            <p>COURSES</p>
-            <p>Imaging & Design, Web Design, Motion Graphics & Visual Effects, Computer Animation</p>
+            <p class="main">COURSES</p>
+            <p class="main">Imaging & Design, Web Design, Motion Graphics & Visual Effects, Computer Animation</p>
           </figure>
-          <figure id="design">
-            <img src="resources/photos/course-design.jpg" alt="a closeup of a camera being held close to the subject's body">
+          <figure>
+            <img class="main" src="resources/photos/course-design.jpg" alt="a closeup of a camera being held close to the subject's body">
             <h2>Design</h2>
-            <p>COURSES</p>
-            <p>User Expierence Deisgn, User Research, Visual Design</p>
+            <p class="main">COURSES</p>
+            <p class="main">User Expierence Deisgn, User Research, Visual Design</p>
           </figure>
-          <figure id="data">
-            <img src="resources/photos/course-data.jpg" alt="an unattended laptop sitting on a table with a number of graphs and charts on it's display">
+          <figure>
+            <img class="main" src="resources/photos/course-data.jpg" alt="an unattended laptop sitting on a table with a number of graphs and charts on it's display">
             <h2>Data</h2>
-            <p>COURSES</p>
-            <p>Data Science, Big Data, SQL, Data Visualization</p>
+            <p class="main">COURSES</p>
+            <p class="main">Data Science, Big Data, SQL, Data Visualization</p>
           </figure>
-          <figure id="business">
-            <img src="resources/photos/course-business.jpg" alt="an artistic picture of a chess board with wooden chess peices.">
+          <figure>
+            <img class="main" src="resources/photos/course-business.jpg" alt="an artistic picture of a chess board with wooden chess peices.">
             <h2>Business</h2>
-            <p>COURSES</p>
-            <p>Product Development, Business Development, Startup</p>
+            <p class="main">COURSES</p>
+            <p class="main">Product Development, Business Development, Startup</p>
           </figure>
-          <figure id="marketing">
-            <img src="resources/photos/course-marketing.jpg" alt="a closeup of an Apple watch around the wrist of a user">
+          <figure>
+            <img class="main" src="resources/photos/course-marketing.jpg" alt="a closeup of an Apple watch around the wrist of a user">
             <h2>Marketing</h2>
-            <p>COURSES</p>
-            <p>Analytics, Content Marketing, Mobile Marketing</p>
+            <p class="main">COURSES</p>
+            <p class="main">Analytics, Content Marketing, Mobile Marketing</p>
           </figure>
         </div>
       </div>
@@ -151,10 +158,10 @@
         <div class="thesis-exhibit-content flex">
           <div class="feature-video">
             <video src="resources/videos/thesis.mp4" autoplay></video>
-            <h2>Reimagine urban</h2>
-            <p>"Curabitur vitae libero in ipsum porttitor consequat. Aliquam et commodo lectus, nec consequate neque. Sed non accumsan urna. Phasellus sed consequat ex. Etiam eget magna laoreet, efficitur dolor consequat, tristique ligula."</p>
+            <h2 class="main">Reimagine urban</h2>
+            <p class="main">"Curabitur vitae libero in ipsum porttitor consequat. Aliquam et commodo lectus, nec consequate neque. Sed non accumsan urna. Phasellus sed consequat ex. Etiam eget magna laoreet, efficitur dolor consequat, tristique ligula."</p>
           </div>
-          <div class="side-articles">
+          <div class="side-articles main">
             <article class="side-article flex" id="grey">
               <img src="resources/photos/thesis-fisma.jpg" alt="top down view of a desk and a subject's hand doing work">
                 <div class="side-article-content">

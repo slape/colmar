@@ -1,0 +1,30 @@
+h1 {
+  font-size: 3rem;
+  margin: 2.5rem 0;
+}
+
+h2 {
+  font-size: 2rem;
+  margin: 1.5rem 0;
+}
+
+p {
+  font-size: 1.5rem;
+  line-height: 1.8rem;
+  margin-bottom: 1.5rem;
+}
+
+header {
+  font-size: 2rem;
+  padding: 1.8rem 3rem;
+}
+
+header img {
+  height: 4rem;
+}
+
+nav a {
+  font-size: 2rem;
+  color: #777777;
+  margin-left: 1.8rem;
+}

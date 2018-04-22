@@ -1,0 +1,166 @@
+
+/*Mobile Global*/
+h1 {
+  font-size: 4.75rem;
+  margin: 2rem 0;
+  font-weight: bold;
+  color: 	#505050;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 3.5rem;
+  margin: 2rem 0;
+  color: 	#505050;
+}
+
+p {
+  font-size: 2.3rem;
+  line-height: 3rem;
+  margin-bottom: 2rem;
+}
+
+.flex {
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.flex-column {
+  align-items: stretch;
+}
+
+.mobile {
+  display: block;
+}
+
+.main {
+  display: none;
+}
+
+
+
+
+/*Mobile Header*/
+#large-header {
+  display: none;
+}
+#small-header {
+  display: block;
+}
+
+header img {
+  height: 5rem;
+}
+
+
+
+
+
+/*Mobile Banner*/
+.banner {
+  background-color: whitesmoke;
+  padding: 0;
+}
+
+.banner img {
+  width: 100%;
+}
+
+.feature-content {
+  width: 80%;
+  padding: 2rem;
+  margin: 0;
+}
+
+.feature-content h3 {
+  align-self:stretch;
+  font-size: 3rem;
+  color: white;
+  padding: 1.5rem;
+  text-align: center;
+  background-color: #505050;
+}
+
+
+
+
+/*Mobile Information Section*/
+
+.feature-article {
+  display: none;
+}
+
+.side-articles {
+  width: 100%;
+  margin: 0;
+}
+
+.side-article {
+  padding: 1rem;
+  border-bottom: none;
+  justify-content: flex-start;
+}
+
+#grey {
+  background-color: white;
+}
+
+.side-article img {
+  width: 100%;
+}
+
+.side-article-content {
+  align-self: flex-start;
+  margin: 1rem;
+  line-height: 2rem;
+}
+
+.side-article a {
+  font-size: 2rem;
+}
+
+
+
+
+
+/*Start learning section*/
+
+.start-learning {
+  background-color: white;
+  padding: 1rem
+}
+
+.learning-figures figure {
+  align-self: stretch;
+  width: auto;
+  background-color: whitesmoke;
+  margin: 1rem 0;
+}
+
+.learning-figures h2 {
+  padding: 0 2rem;
+  font-weight: normal;
+}
+
+.start-learning h1 {
+  text-align: center;
+}
+
+
+
+
+
+/*Thesis section*/
+.thesis-exhibit {
+  align-items: center;
+  padding: 2rem;
+}
+
+.feature-video {
+  width: auto;
+  padding: 1rem 2rem;
+}
+
+.feature-video video {
+  width: 100%;
+}
