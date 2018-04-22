@@ -19,6 +19,23 @@ h2,
 h3,
 h4 {
   color: #505050;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 6.5rem;
+  margin: 3rem 0;
+}
+
+h2 {
+  font-size: 3.5rem;
+  margin: 2rem 0;
+}
+
+p {
+  font-size: 2.3rem;
+  line-height: 3rem;
+  margin-bottom: 2rem;
 }
 
 .flex-row {
@@ -68,18 +85,7 @@ header nav a {
 
 .feature-content {
   width: 40%;
-  margin-left: 3rem;
-}
-
-.feature-content h1 {
-  font-weight: bold;
-  font-size: 7rem;
-  margin: 2rem;
-}
-
-.feature-content h2 {
-  font-size: 4rem;
-  margin: 2rem;
+  margin-left: 5rem;
 }
 
 .feature-content h3 {
@@ -87,9 +93,9 @@ header nav a {
   font-size: 3rem;
   color: white;
   padding: 2rem;
+  margin: 2rem 0;
   text-align: center;
   background-color: #505050;
-  margin: 2rem;
 }
 
 /*Information section*/
@@ -105,15 +111,7 @@ header nav a {
   width: 100%;
 }
 
-.feature-article h1 {
-  font-size: 6rem;
-  font-weight: bold;
-  margin: 3rem 0;
-}
-
 .feature-article p {
-  line-height: 3rem;
-  font-size: 2.3rem;
   margin-bottom: 4rem;
 }
 
@@ -148,17 +146,38 @@ header nav a {
   line-height: 3rem;
 }
 
-.side-article h2 {
-  font-weight: bold;
-  font-size: 3rem;
-  margin-bottom: 1.5rem;
-}
-
-.side-article p {
-  font-size: 2.3rem;
-  margin-bottom: 2rem;
-}
-
 .side-article a {
   font-size: 2rem;
+}
+
+/*Start learning section*/
+.start-learning h1 {
+}
+
+.start-learning {
+  background-color: whitesmoke;
+  align-items: center;
+  padding: 4rem 15rem;
+
+}
+
+.learning-figures figure {
+  background-color: white;
+  width: 30%;
+  margin: 2rem 0;
+}
+
+.learning-figures figure img {
+  width: 100%;
+}
+
+.learning-figures h2,
+.learning-figures p {
+  padding: 0 2rem;
+}
+
+.learning-figures {
+  align-items: flex-start;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
