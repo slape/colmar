@@ -14,6 +14,13 @@ strong {
   color: 	#505050;
 }
 
+h1,
+h2,
+h3,
+h4 {
+  color: #505050;
+}
+
 .flex-row {
   display: flex;
   align-items: center;
@@ -23,7 +30,7 @@ strong {
 .flex-column {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 /*Header Section*/
@@ -52,7 +59,7 @@ header nav a {
 
 .banner {
   background-color: whitesmoke;
-  padding: 3rem 4rem;
+  padding: 5rem 4rem;
 }
 
 .banner img {
@@ -81,6 +88,77 @@ header nav a {
   color: white;
   padding: 2rem;
   text-align: center;
-  background-color: dimgrey;
+  background-color: #505050;
   margin: 2rem;
+}
+
+/*Information section*/
+.feature-article {
+  padding: 5rem 4rem;
+  justify-content: center;
+  align-self: flex-start;
+  width: 60%;
+  border-right: 2px solid whitesmoke;
+}
+
+.feature-article img {
+  width: 100%;
+}
+
+.feature-article h1 {
+  font-size: 6rem;
+  font-weight: bold;
+  margin: 3rem 0;
+}
+
+.feature-article p {
+  line-height: 3rem;
+  font-size: 2.3rem;
+  margin-bottom: 4rem;
+}
+
+.feature-article .caption {
+  color: #505050;
+  font-size: 2.2rem;
+}
+
+.side-articles {
+  width: 40%;
+  align-self: flex-start;
+  margin: 2.2rem 2rem 2.2rem 0;
+
+}
+
+.side-article {
+  padding: 3rem;
+  border-bottom: 2px solid whitesmoke;
+  justify-content: flex-start;
+}
+
+#grey {
+  background-color: whitesmoke;
+}
+
+.side-article img {
+  width: 35%;
+}
+
+.side-article-content {
+  margin-left: 2rem;
+  line-height: 3rem;
+}
+
+.side-article h2 {
+  font-weight: bold;
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
+}
+
+.side-article p {
+  font-size: 2.3rem;
+  margin-bottom: 2rem;
+}
+
+.side-article a {
+  font-size: 2rem;
 }
